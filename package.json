@@ -4,7 +4,7 @@
   "description": "\"A simple nodejs mongodb app\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/piyushshri01/Todo-nodejs-app#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^3.1.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
